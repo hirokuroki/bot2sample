@@ -50,24 +50,7 @@ Hello World!!
         document.addEventListener('keyup', function(event) { if (event.keyCode == 27) { embedded_svc.inviteAPI.inviteButton.rejectInvite(); }})
     })();
 </script>
-<!-- End of Invitations -->
-	
-<!-- LiveAgentリリース -->
-<!--
-<script type='text/javascript' src='https://c.la1-c1-hnd.salesforceliveagent.com/content/g/js/47.0/deployment.js'></script>
-<script type='text/javascript'>
-liveagent.init('https://d.la1-c1-hnd.salesforceliveagent.com/chat', '5722v000000l97J', '00D2v000002Gp0v');
-</script>
--->	
-
-<!-- [チャット] ボタンと招待 -->	
-<!--
-<div id="liveagent_invite_button_5732v000000lUOe" style="display:none;">
-	<span style="cursor: pointer; width: 100px; height: 20px; padding: 5px;" onclick="liveagent.startChat('5732v000000lUOe')">Start Chat</span>
-	<span style="cursor: pointer; width: 100px; height: 20px; padding: 5px;" onclick="liveagent.rejectChat('5732v000000lUOe')">Decline Chat</span>
-</div>	
--->
-	
+<!-- End of Invitations -->	
 	
 <!-- 組み込みリリース　Bot2_Sample_Web -->	
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
@@ -91,7 +74,7 @@ liveagent.init('https://d.la1-c1-hnd.salesforceliveagent.com/chat', '5722v000000
 <script type='text/javascript'>
     var initESW = function(gslbBaseURL) {
         embedded_svc.settings.displayHelpButton = true; //または false
-        embedded_svc.settings.language = ''; //たとえば、「en」または「en-US」を入力します
+        embedded_svc.settings.language = 'en'; //たとえば、「en」または「en-US」を入力します
 
         //embedded_svc.settings.defaultMinimizedText = '...'; //(エキスパートとチャットにデフォルト設定)
         //embedded_svc.settings.disabledMinimizedText = '...'; //(エージェントがオフラインにデフォルト設定)
